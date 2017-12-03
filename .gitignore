@@ -31,6 +31,9 @@ wheels/
 *.manifest
 *.spec
 
+# .ini files
+*.ini
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

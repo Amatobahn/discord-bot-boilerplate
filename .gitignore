@@ -89,6 +89,7 @@ ENV/
 
 # Pycharm project files
 /.idea
+*/__pycache__
 
 # Spyder project settings
 .spyderproject

@@ -1,10 +1,10 @@
 from distutils.core import setup
 
 setup(
-    name='HamBot',
+    name='DiscordBot',
     version='0.1dev',
 
-    description='A basic discord bot',
+    description='Python 3.4+ Discord Bot boilerplate project',
 
     # The project's main homepage.
     url='https://www.IamGregAmato.com',
@@ -14,7 +14,7 @@ setup(
     author_email='amatobahn@gmail.com',
 
     # License
-    license='Proprietary License',
+    license='MIT',
 
     # Classifiers
     classifiers=[
@@ -26,10 +26,12 @@ setup(
         'Topic :: Software Development :: Tools',
 
         # License:
-        'License :: Proprietary License',
+        'License :: MIT',
 
         # Supported Python versions:
-        'Programming Language :: Python :: 3.4.4',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6'
     ],
 
     # Keywords
@@ -37,5 +39,5 @@ setup(
 
     # Required dependencies. Will be installed by pip
     # when the project is installed.
-    install_requires=['discord', 'bot', 'requests'],
+    install_requires=['discord.py', 'requests'],
 )
